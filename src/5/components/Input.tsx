@@ -10,11 +10,15 @@ import { FunctionComponent } from "react";
  * and remove the InputProps interface
  */
 
-interface InputProps {}
+interface InputProps {
+  onSearch: (event: React.ChangeEvent<HTMLInputElement>) => void;
+}
 
-const Input: FunctionComponent<InputProps> = (props) => {
+const Input: FunctionComponent<InputProps> = ({ onSearch }) => {
   return (
-    <div>#Input goes here#</div>
+    <div>
+      <input type="text" onChange={onSearch} />
+    </div>
   );
 };
 

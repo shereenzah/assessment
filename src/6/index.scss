@@ -1,4 +1,58 @@
 /* DO NOT CHANGE THIS ROOT CLASS NAME*/
 #task-6 {
   /* Styles goes here */
+  h3 {
+    margin-bottom: 5px;
+  }
+  input[type="text"] {
+    width: 40%;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  button {
+    padding: 10px;
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 5px;
+  }
+
+  li > input {
+    margin-right: 5px;
+  }
+  .add-todo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .search-todo {
+    margin-top: 10px;
+  }
+
+  .filtered-todos {
+    margin-top: 10px;
+    button {
+      background-color: #778d9e;
+    }
+    span{
+      width:80%;
+      display: inline-block;
+    }
+  }
 }

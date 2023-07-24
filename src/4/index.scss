@@ -1,4 +1,36 @@
 /* DO NOT CHANGE THIS ROOT CLASS NAME*/
 #task-5 {
   /* Styles goes here */
+  form {
+    border: 3px solid #f1f1f1;
+    width:300px;
+    padding: 20px;
+  }
+
+  label {
+    margin-bottom: 10px;
+  }
+
+  input[name="password"],
+  input[name="email"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  button {
+    background-color: #04aa6d;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
 }
